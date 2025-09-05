@@ -1,0 +1,9 @@
+# Programa que calcula a média de três números inseridos pelo usuário
+
+num1 = int(input("Digite o 1° numero: "))
+num2 = int(input("Digite o 2° numero: "))
+num3 = int(input("Digite o 3° numero: "))
+
+media = (num1 + num2 + num3) / 3
+
+print = (f'A media dos três números é: {media}')

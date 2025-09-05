@@ -1,0 +1,12 @@
+# Programa que lê uma lista de nomes e retorna uma nova lista com apenas os nomes que começam com a letra 'A'.
+
+lista_de_nomes = ["Amanda", "Linda", "Ricardo", "Fátima", "Spike", "Alceu"]
+
+nomes_com_a = []
+
+for nome in lista_de_nomes:
+
+    if nome.startswith("A"):
+        nomes_com_a.append(nome)
+
+print("Nomes que começam com 'A':", nomes_com_a)

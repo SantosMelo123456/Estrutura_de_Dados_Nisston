@@ -1,0 +1,13 @@
+# Programa que imprime a sequência de Fibonacci até um valor inserido pelo usuário.
+
+
+numero = int(input('Digite um numero: '))
+
+a, b = 0, 1                                # São os dois primeiros numeros da sequencia de Fibo
+
+print("Sequência de Fibonacci até", numero, ":")
+
+while a <= numero:                         # Enquanto o número atual for menor ou igual ao limite,
+    print(a, end=" ")
+    a, b = b, a + b                        # a = b, novo b = a+b
+

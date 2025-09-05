@@ -1,0 +1,9 @@
+# Programa que leia uma lista de números e exiba o maior e o menor valor da lista.
+
+lista_de_numeros = [3,15,17,51,53,]
+
+maior = max(lista_de_numeros)  # encontra o maior número da lista
+menor = min(lista_de_numeros)  # encontra o menor número da lista
+
+print(f"Maior número da lista é {maior}")
+print(f"Menor número da lista é {menor}")
